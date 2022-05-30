@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h2>MU Puzzle Visualizer</h2>
+  <h3>Introduction</h3>
+  <h3>Rules and Directions</h3>
+  <puzzle-base/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PuzzleBase from './components/PuzzleBase.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PuzzleBase
   }
 }
 </script>
