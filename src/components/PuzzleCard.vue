@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <h2 class="card-text">MU</h2>
+        <h2 class="card-text">MI</h2>
     </div>
 </template>
 
